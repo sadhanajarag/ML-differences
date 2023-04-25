@@ -1,0 +1,7 @@
+ExtraTreeClassifier is a decision tree-based classification algorithm that randomly selects features at each split point, and then selects the best split among those features. This can help reduce the variance of the model and increase its speed, but may also lead to overfitting.
+
+ExtraTreesClassifier, on the other hand, is an ensemble learning method that combines multiple decision trees and randomly selects features at each split point, similar to ExtraTreeClassifier. However, unlike ExtraTreeClassifier, ExtraTreesClassifier builds multiple decision trees with bootstrap sampling of the training data and aggregates the results to improve the overall accuracy and reduce overfitting.
+
+In summary, ExtraTreeClassifier is a single decision tree-based classifier with randomized feature selection, while ExtraTreesClassifier is an ensemble method that combines multiple decision trees with randomized feature selection and bootstrapping.
+
+It's important to note the difference in the plural form between ExtraTreesClassifier and ExtraTreeClassifier. This difference is subtle but important as it indicates that the former is an ensemble method, while the latter is a single decision tree-based classifier.
